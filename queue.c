@@ -132,7 +132,6 @@ bool q_remove_head(queue_t *q, char *sp, size_t bufsize)
     free(remove);
     q->size--;
     return true;
-
 }
 
 /*
